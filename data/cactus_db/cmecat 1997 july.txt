@@ -1,0 +1,43 @@
+:Issued: Mon Sep 20 09:48:58 2010
+:Product: CACTus catalogue (http://sidc.be/cactus)
+#----------------------------------------------------------------------
+# Instrument: LASCO| Detector: c2 # Instrument: LASCO| Detector: c3
+# Threshold : 0.30 | Factor : 6 | Minimal CME width: 5
+# 
+  first c2: 1997/06/30  02:48:13.838 22015906.fts
+  last  c2: 1997/08/01  20:53:05.527 22018499.fts
+  first c3: 1997/06/30  03:27:37.716 32016135.fts
+  last  c3: 1997/08/01  23:44:13.229 32017253.fts
+# 
+#----------------------------------------------------------------------
+# Output: Detected cmemap with the following characteristics:
+# 
+#    CME: CME number 
+#   Flow: Flow number. Flows are suspicious detections, their color in the detectionmap is dark blue
+#     t0: onset time, earliest indication of liftoff
+#    dt0: duration of liftoff (hours)
+#     pa: principal angle, counterclockwise from North (degrees)
+#     da: angular width (degrees), 
+#      v: median velocity (km/s)
+#     dv: variation (1 sigma) of velocity over the width of the CME
+#  mindv: lowest velocity detected within the CME
+#  maxdv: highest velocity detected within the CME
+#  halo?: II if da>90, III if da>180, IV if da>270, indicating potential halo/partial halo CME
+# 
+# CME |          t0    | dt0| pa | da |  v  |  dv | minv| maxv| halo?
+  0007|1997/07/30 20:20| 02 | 093| 024| 0291| 0067| 0222| 0418|    
+  0006|1997/07/25 22:00| 01 | 255| 016| 1014| 0096| 0796| 1068|    
+  0005|1997/07/25 19:15| 02 | 269| 068| 0382| 0066| 0251| 0527|    
+  0004|1997/07/25 06:30| 05 | 268| 034| 0394| 0198| 0162| 0832|    
+  0003|1997/07/24 13:30| 03 | 084| 058| 0201| 0012| 0189| 0230|    
+  0002|1997/07/14 08:51| 03 | 074| 050| 0232| 0068| 0119| 0367|    
+  0001|1997/07/13 01:23| 01 | 282| 022| 0386| 0059| 0286| 0456|    
+ 
+# Flow|          t0    | dt0| pa | da |  v  |  dv | minv| maxv| halo?
+  0007|1997/07/25 15:30| 01 | 127| 008| 2046| 0000| 2046| 2046|    
+  0006|1997/07/25 15:01| 02 | 357| 100| 1914| 0082| 1760| 2046|  II
+  0005|1997/07/25 14:00| 03 | 207| 064| 1916| 0088| 1709| 2046|    
+  0004|1997/07/22 05:11| 07 | 178| 046| 0196| 0017| 0154| 0222|    
+  0003|1997/07/22 00:02| 04 | 115| 016| 0204| 0000| 0204| 0204|    
+  0002|1997/07/22 00:02| 13 | 327| 088| 0204| 0012| 0196| 0229|    
+  0001|1997/07/06 14:28| 00 | 289| 012| 0144| 0000| 0144| 0144|    
