@@ -1,35 +1,5 @@
-# Ignore all data files
-data/
-
-# But keep empty folders for structure if needed (optional)
-!data/.keep
-
-# Ignore any CDF files
+# Ignore CDF files
 *.cdf
 
-# Ignore Parquet files
-*.parquet
-
-# Ignore environment files
-.venv/
-.env
-*.env
-
-# Ignore Dask / Arrow / Temp files
-*.arrow
-*.tmp
-*.log
-*.bak
-*.swp
-
-# Ignore Python cache
-__pycache__/
-*.pyc
-*.pyo
-
-# Ignore Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Ignore system files
-.DS_Store
-Thumbs.db
+# Optional: Ignore all contents of data/aditya_l1
+data/aditya_l1/
