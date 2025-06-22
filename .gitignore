@@ -1,7 +1,0 @@
-# Ignore CDF files
-*.cdf
-
-# Optional: Ignore all contents of data/aditya_l1
-data/aditya_l1/
-# Ignore all ACE data
-data/ace_parent_directory/
